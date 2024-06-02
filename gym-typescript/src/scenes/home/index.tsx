@@ -82,7 +82,7 @@ const Home = ({ setSelectedPage }: Props) => {
       </motion.div>
       {/*SPONSORS*/}
       {isAboveMediumScreens && (
-        <div className="h-[120px] w-full bg-[#ae8cbc] bg-opacity-70 py-10 mt-16">
+        <div className="h-[120px] w-full bg-[#ae8cbc] py-10 mt-16">
           <div className="mx-auto w-5/6">
             <div className="flex w-3/5 items-center justify-between gap-8 grayscale ">
               <img alt="redbull-sponsor" src={SponsorRedBull} />
