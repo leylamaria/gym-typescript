@@ -24,6 +24,17 @@ const Footer = () => {
           <p>(333)425-6825</p>
         </div>
       </div>
+      <small className="flex justify-center mt-16">
+        This project is
+        <a
+          href="https://github.com/leylamaria/gym-typescript"
+          target="_blank"
+          rel="noreferrer"
+          className="underline ml-1"
+        >
+          open-sourced on GitHub
+        </a>
+      </small>
     </footer>
   );
 };
